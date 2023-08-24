@@ -1,0 +1,153 @@
+/*! Font face start */
+@font-face {
+    font-family: "Dongle";
+    src: url("../fonts/Dongle-Regular.ttf") format(truetype);
+}
+/*! Font face end */
+
+/*! Defoult style start */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Dongle", sans-serif;
+}
+/*! Defoult style end */
+
+/*! Header style start */
+header {
+    background-image: url("../img/pexels-photo-16083285.jpeg");
+}
+header .div-oposite{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5rem;
+    background-color: rgba(0, 0, 0, 0.406);
+    color: #fff;
+    min-height: 30vh;
+}
+
+header h1{
+    padding: 1rem;
+    font-size: 3rem;
+}
+
+header h1 a{
+    text-decoration: none;
+    color: #fff;
+}
+header p{
+    font-size: 2rem;
+}
+
+.search-form {
+    padding: 1rem;
+    display: flex;
+}
+
+.search-form input{
+    font-size: 1.5rem;
+    font-weight: 100;
+    padding: 0.75rem 1.75rem;
+    width: 100%;
+    border: none;
+    border-radius: 8px 0 0 8px;
+    outline: none;
+}
+
+.search-form button {
+    border: none;
+    padding: 0.5rem 1rem;
+    font-size: 1.25rem;
+    background-color: rgb(120, 47, 236);
+    border-radius: 0 8px 8px 0;
+    color: #fff;
+    cursor: pointer;
+}
+/*! Header style end */
+
+/*! Main style start */
+.gallery{
+   width: 80%;
+   display: flex;
+   padding: 2rem 0;
+   justify-content: space-between;
+   flex-wrap: wrap;
+   margin: auto;
+   font-size: 1.5rem;
+}
+
+.gallery-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #909090;
+    padding: 0.5rem 0;
+}
+
+.gallery-info a{
+    color: rgb(120, 47, 236);
+    text-decoration: none;
+}
+
+.gallery-img{
+    width: 30%;
+    margin: 2.5rem 0;
+}
+
+.gallery-img:hover img{
+    box-shadow: 0 0 15px rgba(119, 47, 236, 0.765);
+}
+
+.gallery-img img{
+    width: 100%;
+    height: 100%;
+    border-radius: 1rem;
+    cursor: pointer;
+    transition: all 0.4s linear;
+    object-fit: cover;
+}
+
+.fa-user {
+    font-size: 1rem;
+    color: rgb(119, 255, 0);
+}
+
+.fa-circle-down{
+    font-size: 1rem;
+    color: rgb(255, 51, 0);
+}
+
+nav{
+    width: 80%;
+    margin: 0 auto;
+}
+.nav-button{
+    width: 100%;
+    padding: 1rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.more{
+    background-color: rgb(120, 47, 236);
+    color: #fff;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    padding: 0.25rem 2rem;
+    font-size: 2rem;
+    border-radius: 8px;
+    font-family: "Dongle", sans-serif;
+}
+
+.more:hover{
+    box-shadow: 0 0 10px rgba(119, 47, 236, 0.628);
+}
+/*! Main style end */
